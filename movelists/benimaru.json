@@ -74,7 +74,7 @@
       },
       {
         "name": "Genei Hurricane",
-        "input": ":qcf::qcf:+[B] {or} [D]"
+        "input": ":qcb::qcb:+[B] {or} [D]"
       }
     ],
     "{superDesperationMoves}": [
