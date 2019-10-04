@@ -1,0 +1,97 @@
+{
+  "names": {
+    "default": {
+      "roman": "Lin"
+    },
+    "japan": {
+      "roman": "Lin",
+      "original": "麟"
+    }
+  },
+  "images": {
+    "face": "lin.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Akuzan",
+        "input": "{close}, :b: {or} :f:+[C]"
+      },
+      {
+        "name": "Akuzan Ki",
+        "input": "{close}, :b: {or} :f:+[D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Benpatsuken",
+        "input": ":f:+[A]"
+      },
+      {
+        "name": "High Hakkyokuken Dakai",
+        "input": ":df:+[C]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Tetsuzanbu: Rasetsu",
+        "input": ":qcf:+[A] {or} [C]",
+        "extraInfo": "{tetsuzanbuButton}"
+      },
+      {
+        "name": "Tetsuzanbu: Nagi",
+        "input": ":hcb:+[A] {or} [C]",
+        "after": "Tetsuzanbu: Rasetsu"
+      },
+      {
+        "name": "Tetsuzanbu: Hakei",
+        "input": ":f:+[A] {or} [C]",
+        "after": "Tetsuzanbu: Nagi"
+      },
+      {
+        "name": "Muei Kosashu",
+        "input": ":dp:+[A] {or} [C]"
+      },
+      {
+        "name": "Kasumi",
+        "input": ":qcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Hitenkyaku",
+        "input": ":hcb:+[B] {or} [D]"
+      },
+      {
+        "name": "Himokyaku",
+        "input": ":hcf:+[B] {or} [D]"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Ranbu Dokuga",
+        "input": ":qcb::db::qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Yogo",
+        "input": ":hcf::hcf:+[B] {or} [D]"
+      }
+    ],
+    "{superDesperationMoves}": [
+      {
+        "name": "Ranbu Dokuga",
+        "input": ":qcb::db::qcf:+[A]+[C]"
+      },
+      {
+        "name": "Dokushuko",
+        "input": ":d::d::d:+[A]+[C]"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "tetsuzanbuButton": "The button used to start the Tetsuzanbu: Rasetsu must be used to perform the followups"
+    },
+    "portuguese": {
+      "tetsuzanbuButton": "O botão usado para iniciar o Tetsuzanbu: Rasetsu deve ser o mesmo durante as continuações"
+    }
+  }
+}
