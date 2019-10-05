@@ -1,0 +1,103 @@
+{
+  "names": {
+    "default": {
+      "roman": "Seth"
+    },
+    "japan": {
+      "roman": "Seth",
+      "original": "セス"
+    }
+  },
+  "images": {
+    "face": "seth.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Elbow Strike",
+        "input": "{close}, :b: {or} :f:+[C]"
+      },
+      {
+        "name": "Circular Throw",
+        "input": "{close}, :b: {or} :f:+[D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Tackle",
+        "input": ":f:+[A]"
+      },
+      {
+        "name": "Sobat",
+        "input": ":b:+[A]"
+      },
+      {
+        "name": "Front Kick",
+        "input": ":f:+[B]"
+      },
+      {
+        "name": "Sliding Kick",
+        "input": ":df:+[B]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Rising Sun",
+        "input": ":qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Bow Moon",
+        "input": ":hcb:+[B] {or} [D]"
+      },
+      {
+        "name": "Moon Fall",
+        "input": "{inAir}, :qcf:+[A]"
+      },
+      {
+        "name": "Sliding Kick",
+        "input": ":df:+[B]",
+        "after": "Moon Fall"
+      },
+      {
+        "name": "Moon Set",
+        "input": "{inAir}, :qcf:+[B]"
+      },
+      {
+        "name": "Dark Moon",
+        "input": "{inAir}, :qcf:+[C]"
+      },
+      {
+        "name": "Sail Moon",
+        "input": "{inAir}, :qcf:+[D]"
+      },
+      {
+        "name": "Body Snatcher",
+        "input": ":hcf:+[B]"
+      },
+      {
+        "name": "Foot Snatcher",
+        "input": ":hcf:+[D]"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Dual Rising Sun",
+        "input": ":qcf::qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Moon Ocean",
+        "input": ":qcf::df::qcb:+[B] {or} [D]"
+      },
+      {
+        "name": "7 Flash Torso Grab",
+        "input": ":qcf::df::qcb:+[A] {or} [C]"
+      }
+    ],
+    "{superDesperationMoves}": [
+      {
+        "name": "7 Flash Torso Grab",
+        "input": ":qcf::df::qcb:+[A]+[C]"
+      }
+    ]
+  }
+}
